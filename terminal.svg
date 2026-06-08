@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+  <style>
+    .terminal-bg { fill: #0D1117; rx: 10; ry: 10; }
+    .terminal-header { fill: #161B22; rx: 10; ry: 10; }
+    .dot-red { fill: #FF5F56; }
+    .dot-yellow { fill: #FFBD2E; }
+    .dot-green { fill: #27C93F; }
+    
+    .text {
+      font-family: 'Fira Code', 'Consolas', monospace;
+      font-size: 15px;
+      fill: #C9D1D9;
+      white-space: pre;
+    }
+    
+    .keyword { fill: #FF7B72; }
+    .string { fill: #A5D6FF; }
+    .method { fill: #D2A8FF; }
+    .property { fill: #79C0FF; }
+    .prompt { fill: #7EE787; font-weight: bold; }
+    .path { fill: #79C0FF; font-weight: bold; }
+    
+    /* Typing Animation */
+    .typewriter text {
+      clip-path: url(#clip);
+    }
+    
+    .line { opacity: 0; }
+    
+    @keyframes type {
+      0% { opacity: 1; clip-path: polygon(0 0, 0 100%, 0 100%, 0 0); }
+      100% { opacity: 1; clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0); }
+    }
+    
+    @keyframes show {
+      to { opacity: 1; }
+    }
+
+    /* Assign animations to lines */
+    .l1 { animation: type 1s steps(40, end) forwards; animation-delay: 0.5s; }
+    
+    /* Code block shows up after the command finishes typing */
+    .l2 { animation: show 0.1s forwards; animation-delay: 2.0s; }
+    .l3 { animation: show 0.1s forwards; animation-delay: 2.1s; }
+    .l4 { animation: show 0.1s forwards; animation-delay: 2.2s; }
+    .l5 { animation: show 0.1s forwards; animation-delay: 2.3s; }
+    .l6 { animation: show 0.1s forwards; animation-delay: 2.4s; }
+    .l7 { animation: show 0.1s forwards; animation-delay: 2.5s; }
+    .l8 { animation: show 0.1s forwards; animation-delay: 2.6s; }
+    .l9 { animation: show 0.1s forwards; animation-delay: 2.7s; }
+    .l10 { animation: show 0.1s forwards; animation-delay: 2.8s; }
+    .l11 { animation: show 0.1s forwards; animation-delay: 2.9s; }
+    .l12 { animation: show 0.1s forwards; animation-delay: 3.0s; }
+  </style>
+
+  <rect class="terminal-bg" width="100%" height="100%" />
+  <!-- Header -->
+  <rect class="terminal-header" width="100%" height="35" />
+  <circle class="dot-red" cx="20" cy="17.5" r="6" />
+  <circle class="dot-yellow" cx="40" cy="17.5" r="6" />
+  <circle class="dot-green" cx="60" cy="17.5" r="6" />
+
+  <g transform="translate(20, 70)">
+    <!-- Line 1: Command -->
+    <g class="line l1">
+      <text class="text"><tspan class="prompt">kunal@ai-engine</tspan>:<tspan class="path">~/github</tspan>$ cat about_me.py</text>
+    </g>
+
+    <!-- Code Content -->
+    <text class="text line l2" y="35"><tspan class="keyword">class</tspan> KunalSaini:</text>
+    <text class="text line l3" y="60">    <tspan class="keyword">def</tspan> <tspan class="method">__init__</tspan>(self):</text>
+    <text class="text line l4" y="85">        self.<tspan class="property">name</tspan>       = <tspan class="string">"Kunal Saini"</tspan></text>
+    <text class="text line l5" y="110">        self.<tspan class="property">role</tspan>       = <tspan class="string">"Systems-Oriented AI Engineer"</tspan></text>
+    <text class="text line l6" y="135">        self.<tspan class="property">vision</tspan>     = <tspan class="string">"Architecting the future of human-AI collaboration platforms."</tspan></text>
+    <text class="text line l7" y="160">        self.<tspan class="property">philosophy</tspan> = <tspan class="string">"Models are important, but intelligent systems create value."</tspan></text>
+    <text class="text line l8" y="185">        self.<tspan class="property">expertise</tspan>  = [</text>
+    <text class="text line l9" y="210">            <tspan class="string">"Agentic AI"</tspan>, <tspan class="string">"MCP"</tspan>, <tspan class="string">"LangGraph"</tspan>, <tspan class="string">"Multi-Agent Orchestration"</tspan>,</text>
+    <text class="text line l10" y="235">            <tspan class="string">"GraphRAG"</tspan>, <tspan class="string">"Knowledge Graphs"</tspan>, <tspan class="string">"Reinforcement Learning"</tspan>, <tspan class="string">"AI Safety"</tspan></text>
+    <text class="text line l11" y="260">        ]</text>
+    <text class="text line l12" y="285">        self.<tspan class="property">workflow</tspan>   = <tspan class="string">"Research → Architecture → Prototype → Failure → Iteration → Deployment"</tspan></text>
+  </g>
+</svg>
