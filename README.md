@@ -10,11 +10,11 @@
   <p align="center">
     <a href="mailto:2112sainikunal@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
     <a href="https://www.linkedin.com/in/kunalsainii/"><img src="https://img.shields.io/badge/LINKEDIN-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="https://github.com/kunal-gh/kunal-gh/blob/main/Resume_Kunal.pdf"><img src="https://img.shields.io/badge/RESUME-00F0FF?style=for-the-badge&logo=adobeacrobatreader&logoColor=black" alt="Resume"/></a>
+    <a href="https://github.com/kunal-gh/kunal-gh/blob/main/Resume_Kunal.pdf"><img src="https://img.shields.io/badge/RESUME-000000?style=for-the-badge&logo=adobeacrobatreader&logoColor=00F0FF" alt="Resume"/></a>
   </p>
   
   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=kunal-gh&label=PROFILE+VIEWS&style=flat-square&color=00F0FF" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=kunal-gh&label=PROFILE+VIEWS&style=flat-square&color=black" alt="Profile Views" />
   </p>
 </div>
 
