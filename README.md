@@ -9,8 +9,12 @@
 
   <p align="center">
     <a href="mailto:2112sainikunal@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-    <a href="https://linkedin.com/in/kunal-saini"><img src="https://img.shields.io/badge/LINKEDIN-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://www.linkedin.com/in/kunalsainii/"><img src="https://img.shields.io/badge/LINKEDIN-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
     <a href="https://github.com/kunal-gh"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  </p>
+  
+  <p align="center">
+    👉 <b><a href="https://github.com/kunal-gh/kunal-gh/blob/main/Resume_Kunal.pdf">Click here to view my Resume with updated data on top</a></b>
   </p>
   
   <p align="center">
@@ -83,6 +87,6 @@
 
 <div align="center">
   <b>Open to collaborations on Agentic AI, Enterprise Knowledge Systems, and AI Safety.</b><br><br>
-  <a href="https://linkedin.com/in/kunal-saini"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/kunalsainii/"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
   <a href="mailto:2112sainikunal@gmail.com"><img src="https://img.shields.io/badge/2112SAINIKUNAL@GMAIL.COM-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </div>
