@@ -31,21 +31,21 @@
 ### 🧠 Tech Stack
 
 **🔤 Languages**  
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/> <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 
-**🤖 AI / ML / GenAI**  
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>  
-> `RAG` • `GraphRAG` • `MCP` • `Multi-Agent Systems` • `Reinforcement Learning (PPO)`
+**🤖 AI / ML / GenAI & Computer Vision**  
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white"/>  
+> `LangGraph` • `Multi-Agent Systems` • `GraphRAG` • `Neo4j Knowledge Graphs` • `Reinforcement Learning (PPO)` • `XGBoost & Random Forest`
 
-**🌐 Web & Backend**  
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+**🌐 Web, Mobile & Automation**  
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/n8n-FF6C37?style=for-the-badge&logo=n8n&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
 
 **🗄️ Databases & Cloud**  
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Neo4j-018DFA?style=for-the-badge&logo=neo4j&logoColor=white"/> <img src="https://img.shields.io/badge/Qdrant-000000?style=for-the-badge&logo=qdrant&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white"/> <img src="https://img.shields.io/badge/Neo4j-018DFA?style=for-the-badge&logo=neo4j&logoColor=white"/> <img src="https://img.shields.io/badge/Qdrant-black?style=for-the-badge&logo=qdrant&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 
 **⚙️ DevOps & AIOps**  
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>  
-> `AI Observability` • `Model Monitoring` • `Drift Detection`
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>  
+> `AI Observability` • `Model Monitoring` • `Drift Detection` • `Loom Telemetry`
 
 ---
 
@@ -55,9 +55,14 @@
 |-------|-----------------|-------------|-----------|
 | **Phase 5**<br>*(Current)* | **ANDROMEDA** | Production-oriented enterprise agent platform for coordinating tools, retrieval workflows, and intelligent reasoning. | LangGraph, MCP, Multi-Agent |
 | **Phase 5** | **CENTAURUS** | Enterprise knowledge worker platform transforming scattered information into structured organizational intelligence. | GraphRAG, Hybrid Retrieval, Neo4j |
+| **Phase 5** | **Invoxen** | AI-powered financial management app for Android with professional invoice generation and sharing. | React Native, TypeScript, Java |
+| **Phase 5** | **CoverGuard AI** | Industrial-grade book cover validation, spatial reasoning core, and image validation engine. | Python, FastAPI, React, OpenCV |
+| **Phase 5** | **AXIOM Simulator** | Emergent systems simulator combining 3D WebGL renderers with supervised ML RF predictors. | Three.js, JavaScript, Python, Scikit-Learn, Gemini 2.0 |
+| **Phase 5** | **BookLeaf Publishing** | Intelligent hybrid automation suite designed to streamline author support queries. | FastAPI, Supabase, OpenAI, N8N |
 | **Phase 4** | **OSKAR** | AI Safety system utilizing Entropy-Based Uncertainty Estimation for explainable moderation and human-in-the-loop workflows. | GNNs, GraphRAG, Transformers |
-| **Phase 3** | **PCB Routing** | AI-powered PCB design platform treating routing as a sequential decision-making problem. Improved routing efficiency by ~40%. | Reinforcement Learning, PPO |
-| **Phase 2** | **LeadGen Pro** | Predictive lead scoring platform integrated into operational decision-making processes. Achieved ~0.88 ROC-AUC. | XGBoost, Random Forest |
+| **Phase 4** | **EmotiCare AI** | Emotional wellness application detecting user emotion and sentiment via transformer networks. | Python, Streamlit, HuggingFace Transformers |
+| **Phase 3** | **PCB Routing** | AI-powered PCB design platform treating routing as a sequential decision-making problem. Improved routing efficiency by ~40%. | Reinforcement Learning, PyTorch, PPO |
+| **Phase 2** | **LeadGen Pro** | Predictive lead scoring platform integrated into operational decision-making processes. Achieved ~0.88 ROC-AUC. | XGBoost, Random Forest, Flask |
 
 ---
 
