@@ -11,7 +11,7 @@
     .accent-green { fill: #10B981; }
     .stroke-green { stroke: #10B981; }
     .accent-purple { fill: #A855F7; }
-    .accent-red { fill: #EF4444; }
+    .accent-orange { fill: #F59E0B; }
     
     /* Animations */
     @keyframes pulse {
@@ -27,12 +27,14 @@
     .scan { stroke: #00F0FF; stroke-width: 0.5; opacity: 0.15; animation: scanline 6s linear infinite; }
     
     /* Bar animations */
-    @keyframes bar-fill-1 { 0%, 100% { width: 45px; } 50% { width: 75px; } }
-    @keyframes bar-fill-2 { 0%, 100% { width: 85px; } 50% { width: 60px; } }
-    @keyframes bar-fill-3 { 0%, 100% { width: 30px; } 50% { width: 90px; } }
+    @keyframes bar-fill-1 { 0%, 100% { width: 95px; } 50% { width: 90px; } }
+    @keyframes bar-fill-2 { 0%, 100% { width: 85px; } 50% { width: 80px; } }
+    @keyframes bar-fill-3 { 0%, 100% { width: 90px; } 50% { width: 85px; } }
+    @keyframes bar-fill-4 { 0%, 100% { width: 80px; } 50% { width: 75px; } }
     .bar-1 { animation: bar-fill-1 3s infinite ease-in-out; }
     .bar-2 { animation: bar-fill-2 4s infinite ease-in-out; }
     .bar-3 { animation: bar-fill-3 5s infinite ease-in-out; }
+    .bar-4 { animation: bar-fill-4 4s infinite ease-in-out; }
 
     /* Scroll log animations */
     @keyframes scroll-logs {
@@ -47,7 +49,7 @@
       80%, 89% { transform: translateY(-176px); }
       90%, 100% { transform: translateY(-198px); }
     }
-    .log-container { animation: scroll-logs 20s steps(10) infinite; }
+    .log-container { animation: scroll-logs 25s steps(10) infinite; }
   </style>
 
   <defs>
@@ -70,50 +72,49 @@
   <!-- Header Bar -->
   <rect x="15" y="15" width="770" height="40" class="panel-bg" />
   <circle cx="35" cy="35" r="5" class="accent-green pulse-dot" filter="url(#glow)" />
-  <text x="50" y="39" class="text" font-weight="bold">KUNAL_GH // AGENTIC_AI_TELEMETRY</text>
-  <text x="500" y="39" class="text text-dim">STATUS: <tspan class="accent-green">ACTIVE</tspan> | SYSTEM: <tspan class="accent-cyan">STABLE</tspan></text>
+  <text x="50" y="39" class="text" font-weight="bold">KUNAL_SAINI // COGNITIVE_SYSTEM_TELEMETRY</text>
+  <text x="520" y="39" class="text text-dim">STATUS: <tspan class="accent-green">ACTIVE</tspan> | ARCH: <tspan class="accent-cyan">SYSTEMS</tspan> | TYPE: <tspan class="accent-purple">BUILDER</tspan></text>
   
   <!-- Panel Left: System Registry -->
   <rect x="15" y="70" width="280" height="365" class="panel-bg" />
-  <text x="30" y="95" class="text" font-weight="bold" fill="#00F0FF">CORE COMPONENT STATUS</text>
+  <text x="30" y="95" class="text" font-weight="bold" fill="#00F0FF">SYSTEM CONFIGURATION</text>
   <line x1="30" y1="105" x2="280" y2="105" stroke="#1F2E4D" stroke-width="1" />
   
-  <!-- ANDROMEDA -->
+  <!-- Identity -->
   <g transform="translate(30, 120)">
-    <circle cx="5" cy="10" r="4" class="accent-cyan pulse-dot" />
-    <text x="20" y="14" class="text" font-weight="bold">ANDROMEDA (Agents)</text>
-    <text x="20" y="30" class="text text-dim" font-size="10">Orchestrator: LangGraph</text>
-    <rect x="20" y="38" width="100" height="6" fill="#141B2E" rx="3" />
-    <rect x="20" y="38" width="85" height="6" class="accent-cyan bar-1" rx="3" />
-    <text x="130" y="44" class="text text-dim" font-size="10">85% LOAD</text>
-  </g>
-  
-  <!-- CENTAURUS -->
-  <g transform="translate(30, 195)">
-    <circle cx="5" cy="10" r="4" class="accent-cyan pulse-dot" />
-    <text x="20" y="14" class="text" font-weight="bold">CENTAURUS (Knowledge)</text>
-    <text x="20" y="30" class="text text-dim" font-size="10">Database: Neo4j + Qdrant</text>
-    <rect x="20" y="38" width="100" height="6" fill="#141B2E" rx="3" />
-    <rect x="20" y="38" width="60" height="6" class="accent-cyan bar-2" rx="3" />
-    <text x="130" y="44" class="text text-dim" font-size="10">60% MEM</text>
+    <text x="0" y="14" class="text" font-weight="bold" fill="#00F0FF">IDENTITY_REGISTRY</text>
+    <text x="10" y="32" class="text" font-size="11">NAME: <tspan class="text-dim">Kunal Saini</tspan></text>
+    <text x="10" y="48" class="text" font-size="11">ROLE: <tspan class="text-dim">AI System Architect</tspan></text>
+    <text x="10" y="64" class="text" font-size="11">FOCUS: <tspan class="text-dim">Intelligent Systems</tspan></text>
   </g>
 
-  <!-- OSKAR -->
-  <g transform="translate(30, 270)">
-    <circle cx="5" cy="10" r="4" class="accent-cyan pulse-dot" />
-    <text x="20" y="14" class="text" font-weight="bold">OSKAR (AI Safety)</text>
-    <text x="20" y="30" class="text text-dim" font-size="10">Entropy-Based Uncertainty</text>
-    <rect x="20" y="38" width="100" height="6" fill="#141B2E" rx="3" />
-    <rect x="20" y="38" width="40" height="6" class="accent-cyan bar-3" rx="3" />
-    <text x="130" y="44" class="text text-dim" font-size="10">99.8% SAFE</text>
-  </g>
+  <!-- Skill Matrix (Animated Load Bars) -->
+  <g transform="translate(30, 215)">
+    <text x="0" y="14" class="text" font-weight="bold" fill="#00F0FF">COGNITIVE_LOAD</text>
+    
+    <!-- Agentic AI -->
+    <text x="10" y="32" class="text" font-size="11">Agentic AI (LangGraph)</text>
+    <rect x="10" y="38" width="100" height="6" fill="#141B2E" rx="3" />
+    <rect x="10" y="38" width="95" height="6" class="accent-cyan bar-1" rx="3" />
+    <text x="120" y="44" class="text text-dim" font-size="10">95%</text>
 
-  <!-- PCB_ROUTE -->
-  <g transform="translate(30, 345)">
-    <circle cx="5" cy="10" r="4" class="accent-green pulse-dot" />
-    <text x="20" y="14" class="text" font-weight="bold">PCB RL ROUTER (RL)</text>
-    <text x="20" y="30" class="text text-dim" font-size="10">Policy: PPO Optimization</text>
-    <text x="20" y="45" class="text" font-size="10" fill="#10B981">EFFICIENCY: +40% ROUTE</text>
+    <!-- GraphRAG -->
+    <text x="10" y="62" class="text" font-size="11">GraphRAG / Knowledge Graphs</text>
+    <rect x="10" y="68" width="100" height="6" fill="#141B2E" rx="3" />
+    <rect x="10" y="68" width="90" height="6" class="accent-cyan bar-3" rx="3" />
+    <text x="120" y="74" class="text text-dim" font-size="10">90%</text>
+
+    <!-- RAG Infrastructure -->
+    <text x="10" y="92" class="text" font-size="11">Neo4j / Qdrant RAG</text>
+    <rect x="10" y="98" width="100" height="6" fill="#141B2E" rx="3" />
+    <rect x="10" y="98" width="85" height="6" class="accent-cyan bar-2" rx="3" />
+    <text x="120" y="104" class="text text-dim" font-size="10">85%</text>
+
+    <!-- Reinforcement Learning -->
+    <text x="10" y="122" class="text" font-size="11">RL (PPO Routing)</text>
+    <rect x="10" y="128" width="100" height="6" fill="#141B2E" rx="3" />
+    <rect x="10" y="128" width="80" height="6" class="accent-cyan bar-4" rx="3" />
+    <text x="120" y="134" class="text text-dim" font-size="10">80%</text>
   </g>
   
   <!-- Panel Right: Live Logs -->
@@ -121,29 +122,29 @@
   
   <!-- Tab header -->
   <path d="M310,70 L420,70 L430,90 L310,90 Z" fill="#141B2E" />
-  <text x="325" y="84" class="text" font-weight="bold" fill="#00F0FF">LIVE_RUN_LOGS</text>
+  <text x="325" y="84" class="text" font-weight="bold" fill="#00F0FF">COGNITIVE_LOGS</text>
   <line x1="310" y1="90" x2="785" y2="90" stroke="#1F2E4D" stroke-width="1" />
   
   <!-- Hidden Overflow Box for Terminal Logs -->
   <svg x="325" y="105" width="445" height="315" viewBox="0 0 445 315">
     <g class="log-container">
-      <text y="20" class="text" fill="#10B981">[SYSTEM] Launching telemetry stream...</text>
-      <text y="42" class="text">[Andromeda] LangGraph orchestrator initialized.</text>
-      <text y="64" class="text" fill="#A855F7">[Centaurus] Building graph instance from Neo4j DB...</text>
-      <text y="86" class="text">[Centaurus] Identity resolution complete (47 nodes mapped).</text>
-      <text y="108" class="text">[Andromeda] Multi-Agent task dispatched: "Evaluate security policy".</text>
-      <text y="130" class="text" fill="#F59E0B">[Oskar] Query input received -> Evaluating uncertainty entropy...</text>
-      <text y="152" class="text">[Oskar] Entropy: 0.12 (Audit passed, safe to process).</text>
-      <text y="174" class="text">[Andromeda] Calling MCP Server:clinvar-database via APIv2...</text>
-      <text y="196" class="text" fill="#10B981">[Andromeda] MCP Success: clinvar retrieved 4 records.</text>
-      <text y="218" class="text">[PCB Router] Initializing sequential PCB routing simulation...</text>
-      <text y="240" class="text">[PCB Router] RL Agent policy (PPO) converging. Reward: +40% route optimization.</text>
-      <text y="262" class="text" fill="#10B981">[SYSTEM] Telemetry loop complete. Restarting monitoring...</text>
-      <text y="284" class="text" fill="#10B981">[SYSTEM] Launching telemetry stream...</text>
-      <text y="306" class="text">[Andromeda] LangGraph orchestrator initialized.</text>
-      <text y="328" class="text" fill="#A855F7">[Centaurus] Building graph instance from Neo4j DB...</text>
-      <text y="350" class="text">[Centaurus] Identity resolution complete (47 nodes mapped).</text>
-      <text y="372" class="text">[Andromeda] Multi-Agent task dispatched: "Evaluate security policy".</text>
+      <text y="20" class="text" fill="#10B981">[System] Initializing Kunal Saini profile engine...</text>
+      <text y="42" class="text">[Philosophy] Loaded: "Models are important, but systems create value."</text>
+      <text y="64" class="text" fill="#A855F7">[Cognition] LangGraph multi-agent orchestration active.</text>
+      <text y="86" class="text">[Cognition] Neo4j GraphRAG database linked.</text>
+      <text y="108" class="text" fill="#F59E0B">[Project] ANDROMEDA: Production-ready agent platform loaded.</text>
+      <text y="130" class="text">[Project] CENTAURUS: Enterprise knowledge engine mapped.</text>
+      <text y="152" class="text">[Project] OSKAR: AI Safety uncertainty framework active.</text>
+      <text y="174" class="text">[Project] PCB-RL: Reinforcement routing model active (+40% eff).</text>
+      <text y="196" class="text" fill="#10B981">[Workflow] Current mode: Research -> Prototype -> Fail -> Iterate -> Deploy.</text>
+      <text y="218" class="text">[Status] Cognitive system online. Ready for collaboration.</text>
+      <text y="240" class="text" fill="#10B981">[System] Re-running telemetry cycle...</text>
+      <text y="262" class="text" fill="#10B981">[System] Initializing Kunal Saini profile engine...</text>
+      <text y="284" class="text">[Philosophy] Loaded: "Models are important, but systems create value."</text>
+      <text y="306" class="text" fill="#A855F7">[Cognition] LangGraph multi-agent orchestration active.</text>
+      <text y="328" class="text">[Cognition] Neo4j GraphRAG database linked.</text>
+      <text y="350" class="text" fill="#F59E0B">[Project] ANDROMEDA: Production-ready agent platform loaded.</text>
+      <text y="372" class="text">[Project] CENTAURUS: Enterprise knowledge engine mapped.</text>
     </g>
   </svg>
 
