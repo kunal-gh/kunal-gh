@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="450">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
   <style>
     /* Global styles */
     .bg { fill: #080C14; }
@@ -38,18 +38,21 @@
 
     /* Scroll log animations */
     @keyframes scroll-logs {
-      0%, 9% { transform: translateY(0); }
-      10%, 19% { transform: translateY(-22px); }
-      20%, 29% { transform: translateY(-44px); }
-      30%, 39% { transform: translateY(-66px); }
-      40%, 49% { transform: translateY(-88px); }
-      50%, 59% { transform: translateY(-110px); }
-      60%, 69% { transform: translateY(-132px); }
-      70%, 79% { transform: translateY(-154px); }
-      80%, 89% { transform: translateY(-176px); }
-      90%, 100% { transform: translateY(-198px); }
+      0%, 7% { transform: translateY(0); }
+      8.33%, 15% { transform: translateY(-22px); }
+      16.66%, 23% { transform: translateY(-44px); }
+      25%, 31% { transform: translateY(-66px); }
+      33.33%, 40% { transform: translateY(-88px); }
+      41.66%, 48% { transform: translateY(-110px); }
+      50%, 56% { transform: translateY(-132px); }
+      58.33%, 65% { transform: translateY(-154px); }
+      66.66%, 73% { transform: translateY(-176px); }
+      75%, 81% { transform: translateY(-198px); }
+      83.33%, 90% { transform: translateY(-220px); }
+      91.66%, 98% { transform: translateY(-242px); }
+      100% { transform: translateY(-264px); }
     }
-    .log-container { animation: scroll-logs 25s steps(10) infinite; }
+    .log-container { animation: scroll-logs 30s steps(12) infinite; }
   </style>
 
   <defs>
@@ -73,7 +76,7 @@
   <rect x="15" y="15" width="770" height="40" class="panel-bg" />
   <circle cx="35" cy="35" r="5" class="accent-green pulse-dot" filter="url(#glow)" />
   <text x="50" y="39" class="text" font-weight="bold">KUNAL_SAINI // COGNITIVE_SYSTEM_TELEMETRY</text>
-  <text x="770" y="39" class="text text-dim" text-anchor="end">STATUS: <tspan class="accent-green">ACTIVE</tspan> | ARCH: <tspan class="accent-cyan">SYSTEMS</tspan> | TYPE: <tspan class="accent-purple">BUILDER</tspan></text>
+  <text x="475" y="39" class="text text-dim" font-size="11">STATUS: <tspan class="accent-green">ACTIVE</tspan> | ARCH: <tspan class="accent-cyan">SYSTEMS</tspan> | TYPE: <tspan class="accent-purple">BUILDER</tspan></text>
   
   <!-- Panel Left: System Registry -->
   <rect x="15" y="70" width="280" height="365" class="panel-bg" />
@@ -128,23 +131,26 @@
   <!-- Hidden Overflow Box for Terminal Logs -->
   <svg x="325" y="105" width="445" height="315" viewBox="0 0 445 315">
     <g class="log-container">
-      <text y="20" class="text" fill="#10B981">[System] Initializing Kunal Saini profile engine...</text>
-      <text y="42" class="text">[Philosophy] Loaded: "Models are important, but systems create value."</text>
-      <text y="64" class="text" fill="#A855F7">[Cognition] LangGraph multi-agent orchestration active.</text>
-      <text y="86" class="text">[Cognition] Neo4j GraphRAG database linked.</text>
-      <text y="108" class="text" fill="#F59E0B">[Project] ANDROMEDA: Production-ready agent platform loaded.</text>
-      <text y="130" class="text">[Project] CENTAURUS: Enterprise knowledge engine mapped.</text>
-      <text y="152" class="text">[Project] OSKAR: AI Safety uncertainty framework active.</text>
-      <text y="174" class="text">[Project] PCB-RL: Reinforcement routing model active (+40% eff).</text>
-      <text y="196" class="text" fill="#10B981">[Workflow] Current mode: Research -> Prototype -> Fail -> Iterate -> Deploy.</text>
-      <text y="218" class="text">[Status] Cognitive system online. Ready for collaboration.</text>
-      <text y="240" class="text" fill="#10B981">[System] Re-running telemetry cycle...</text>
-      <text y="262" class="text" fill="#10B981">[System] Initializing Kunal Saini profile engine...</text>
-      <text y="284" class="text">[Philosophy] Loaded: "Models are important, but systems create value."</text>
-      <text y="306" class="text" fill="#A855F7">[Cognition] LangGraph multi-agent orchestration active.</text>
-      <text y="328" class="text">[Cognition] Neo4j GraphRAG database linked.</text>
-      <text y="350" class="text" fill="#F59E0B">[Project] ANDROMEDA: Production-ready agent platform loaded.</text>
-      <text y="372" class="text">[Project] CENTAURUS: Enterprise knowledge engine mapped.</text>
+      <text y="20" class="text" fill="#10B981">[System] Booting Kunal Saini profile engine...</text>
+      <text y="42" class="text" fill="#A855F7">[Philosophy] "Models are important, but systems create value."</text>
+      <text y="64" class="text">[Invoxen] <tspan fill="#00F0FF">React Native</tspan> Android App (TS/Java) online.</text>
+      <text y="86" class="text">[CoverGuard] <tspan fill="#00F0FF">OpenCV</tspan> Book Cover Validation active <tspan fill="#F59E0B">(100% acc)</tspan>.</text>
+      <text y="108" class="text">[AXIOM] <tspan fill="#00F0FF">Three.js WebGL</tspan> Simulator + Gemini 2.0 active.</text>
+      <text y="130" class="text">[BookLeaf] <tspan fill="#00F0FF">FastAPI</tspan> + Supabase + n8n support suite deployed.</text>
+      <text y="152" class="text">[EmotiCare] <tspan fill="#00F0FF">Streamlit</tspan> + HuggingFace emotion engine loaded.</text>
+      <text y="174" class="text">[LeadGen] <tspan fill="#00F0FF">Flask ML</tspan> Lead Scoring (XGBoost/RF) running.</text>
+      <text y="196" class="text">[PCB-RL] <tspan fill="#00F0FF">PyTorch RL</tspan> router active <tspan fill="#F59E0B">(+40% efficiency)</tspan>.</text>
+      <text y="218" class="text">[OSKAR] <tspan fill="#00F0FF">AI Safety</tspan> GNN uncertainty model running.</text>
+      <text y="240" class="text">[Andromeda] <tspan fill="#00F0FF">LangGraph</tspan> multi-agent platform active.</text>
+      <text y="262" class="text">[Centaurus] <tspan fill="#00F0FF">Neo4j GraphRAG</tspan> knowledge engine online.</text>
+      
+      <!-- Loop Repeating first 6 lines to ensure smooth scrolling transition -->
+      <text y="284" class="text" fill="#10B981">[System] Booting Kunal Saini profile engine...</text>
+      <text y="306" class="text" fill="#A855F7">[Philosophy] "Models are important, but systems create value."</text>
+      <text y="328" class="text">[Invoxen] <tspan fill="#00F0FF">React Native</tspan> Android App (TS/Java) online.</text>
+      <text y="350" class="text">[CoverGuard] <tspan fill="#00F0FF">OpenCV</tspan> Book Cover Validation active <tspan fill="#F59E0B">(100% acc)</tspan>.</text>
+      <text y="372" class="text">[AXIOM] <tspan fill="#00F0FF">Three.js WebGL</tspan> Simulator + Gemini 2.0 active.</text>
+      <text y="394" class="text">[BookLeaf] <tspan fill="#00F0FF">FastAPI</tspan> + Supabase + n8n support suite deployed.</text>
     </g>
   </svg>
 
