@@ -83,8 +83,6 @@
 ### ⏱️ Time Spent Processing (WakaTime Stats)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue?style=flat)
 
 **I'm an Early 🐤** 
@@ -121,7 +119,7 @@ No Activity Tracked This Week
 ```
 
 
- Last Updated on 23/07/2026 02:23:03 UTC
+ Last Updated on 24/07/2026 02:14:12 UTC
 <!--END_SECTION:waka-->
 
 ---
