@@ -83,10 +83,51 @@
 ### ⏱️ Time Spent Processing (WakaTime Stats)
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue?style=flat)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
+**I'm an Early 🐤** 
 
- Last Updated on 07/08/2026 02:27:25 UTC
+```text
+🌞 Morning                225 commits         ████████░░░░░░░░░░░░░░░░░   31.21 % 
+🌆 Daytime                216 commits         ███████░░░░░░░░░░░░░░░░░░   29.96 % 
+🌃 Evening                256 commits         █████████░░░░░░░░░░░░░░░░   35.51 % 
+🌙 Night                  24 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   03.33 % 
+```
+📅 **I'm Most Productive on Wednesday** 
+
+```text
+Monday                   87 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.07 % 
+Tuesday                  103 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
+Wednesday                164 commits         ██████░░░░░░░░░░░░░░░░░░░   22.75 % 
+Thursday                 97 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.45 % 
+Friday                   147 commits         █████░░░░░░░░░░░░░░░░░░░░   20.39 % 
+Saturday                 46 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.38 % 
+Sunday                   77 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.68 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+```
+
+🤖 **AI Coding This Week** 
+
+```text
+No AI Coding Activity Tracked This Week
+```
+
+
+ Last Updated on 08/08/2026 01:14:41 UTC
 <!--END_SECTION:waka-->
 
 ---
